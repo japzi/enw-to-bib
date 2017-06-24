@@ -1,0 +1,21 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div>
+            Endnote format(*.enw) <br/>
+            <textarea id="enw" cols="100" rows="20"></textarea>
+        </div>
+        <br/>
+        <div>
+            Bibtex format(*.bib) <br/>
+            <textarea id="bib" cols="100" rows="20"></textarea>
+        </div>
+        <script type="text/javascript" src="enw-to-bib.js"></script>
+        <script type="text/javascript">
+            document.getElementById("enw").addEventListener('keyup', function(e) {
+                document.getElementById("bib").value = convert_enw_to_bib(document.getElementById("enw").value);
+            }, false);
+        </script>
+    </body>
+</html>
