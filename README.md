@@ -1,4 +1,4 @@
-# Online tool to convert from Endnote "enw" format to Bibtex
+## Online tool to convert Endnote "enw" format to Bibtex
 
 Live demo: https://japzi.github.io/enw-to-bib/
 
